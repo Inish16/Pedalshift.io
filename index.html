@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedalshift</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tav2uve.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Menu Section -->
+        <header class="page-header">
+            <div class="container-lg">
+                <div class="col-14 header-container">
+                    <div class="brand-logo">
+                        <img src="./src/images/logo.png" alt=""  class="brand-name">
+                    </div>
+                    <div class="menu-header-container">
+                        <ul>
+                            <li><a href="#">How It works</a></li>
+                            <li><a href="#">Lorem</a></li>
+                            <li><a href="#">Testimonials</a></li>
+
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            
+                            <li>
+                                <div class="dropdown">
+                                    <button href="#" class="btn signup" id="signupDropdownButton" data-toggle="dropdown">
+                                        <i class="fas fa-user"></i> &nbsp;&nbsp;login &nbsp;&nbsp; <i class="fas fa-angle-down"></i>
+                                    </button>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Trader</a>
+                                        <a class="dropdown-item" href="#">Seller</a>
+                                        <a class="dropdown-item" href="#">Buyer</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <button class="responsive-btn d-md-none" @click="{responsiveMenuOpen = 1}">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- End Menu Section -->
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="heading">
+                            <p class="small-heading">Lorem Ipsum</p>
+                            <h1 class="main-heading">Find The Right Car For You</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Hero Section -->
+
+        <!-- Popular Car Section -->
+        <section class="popular-car-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-14">
+                        <h2 class="heading">Popular Cars</h2>
+                    </div>
+                </div>
+
+                <div class="row section-main">
+                    <div class="col-12 col-md-7 col-lg car-card">
+                        <div class="card-main">
+                            <h3 class="card-title">Model S</h3>
+                            <img src="./src/images/car-model-1.jpg" alt="" class="car-image img img-fluid">
+                            <div class="card-content">
+                                <h4 class="title">Model S</h4>
+                                <p class="details-text">Details Specifications:</p>
+
+                                <div class="specification">
+                                    <ul class="items">
+                                        <li>
+                                            <img src="./src/images/icons/car-driving.svg" alt="" class="icon">
+                                            <span>22,000 KM</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/oil.svg" alt="" class="icon">
+                                            <span>Petrol Engine</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/owner.svg" alt="" class="icon">
+                                            <span>2nd Owner</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/location.svg" alt="" class="icon">
+                                            <span>London</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="btn book-btn">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg car-card">
+                        <div class="card-main">
+                            <h3 class="card-title">Model S</h3>
+                            <img src="./src/images/car-model-2.jpg" alt="" class="car-image img img-fluid">
+                            <div class="card-content">
+                                <h4 class="title">Model S</h4>
+                                <p class="details-text">Details Specifications:</p>
+
+                                <div class="specification">
+                                    <ul class="items">
+                                        <li>
+                                            <img src="./src/images/icons/car-driving.svg" alt="" class="icon">
+                                            <span>22,000 KM</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/oil.svg" alt="" class="icon">
+                                            <span>Petrol Engine</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/owner.svg" alt="" class="icon">
+                                            <span>2nd Owner</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/location.svg" alt="" class="icon">
+                                            <span>London</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="btn book-btn">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg car-card">
+                        <div class="card-main">
+                            <h3 class="card-title">Model S</h3>
+                            <img src="./src/images/car-model-3.jpg" alt="" class="car-image img img-fluid">
+                            <div class="card-content">
+                                <h4 class="title">Model S</h4>
+                                <p class="details-text">Details Specifications:</p>
+
+                                <div class="specification">
+                                    <ul class="items">
+                                        <li>
+                                            <img src="./src/images/icons/car-driving.svg" alt="" class="icon">
+                                            <span>22,000 KM</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/oil.svg" alt="" class="icon">
+                                            <span>Petrol Engine</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/owner.svg" alt="" class="icon">
+                                            <span>2nd Owner</span>
+                                        </li>
+                                        <li>
+                                            <img src="./src/images/icons/location.svg" alt="" class="icon">
+                                            <span>London</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="btn book-btn">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Popular Car Section -->
+
+        <!-- popular  brand -->
+	    <section class="popular-brand">
+	    	<div class="container">
+	    		<p class="popular-head">Popular Brand</p>
+	    		<div class="row justify-content-center">
+	    			<div class="brand">
+	    				 <img src="./src/images/tesla.png" alt="" class="brand-logo">
+	    			</div>
+	    			<div class="brand">
+	    				 <img src="./src/images/aston.jpg" alt="" class="brand-logo">
+	    			</div>
+	    			<div class="brand">
+	    				 <img src="./src/images/Jaguar.png" alt="" class="brand-logo">
+	    			</div>
+	    			<div class="brand">
+	    				 <img src="./src/images/Mercedes-Benz.png" alt="" class="brand-logo">
+	    			</div>
+	    			<div class="brand">
+	    				 <img src="./src/images/pngegg-(1).png" alt="" class="brand-logo">
+	    			</div>
+	    		</div>
+
+	    	</div>
+	    </section>
+	    <!-- end popular  brand -->
+
+	    <!-- about us -->
+	    <section class="about-us">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-7">
+	    				<p class="about-us-head">
+	    					About Us
+	    				</p>
+	    				<p class="about-us-text">
+	    					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. <br><br>Opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.
+	    				</p>
+
+                        <div class="btn-container">
+                            <a href="#" class="btn signup"> Signup Now </a>
+                        </div>
+	    			</div>
+	    			<div class="offset-md-1 col-md-6">
+	    				
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+	    <!-- end about us -->
+
+        <!-- features section -->
+        <section class="feature-section pt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <p class="feature-head"><span class="orange">Benifits</span>  lorem Ipsum</p>
+                        <p class="feature-sub-head">
+                            Lorem Ipsum is simply dummy text printmedia It is a long established fact a reader will be distracted Content of a page when looking at its layout.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="row justify-content-between no-gutters">
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/feature_one.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/car-wiifi.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/feature_one.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/note.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/feature_one.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/car-wiifi.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/car-check.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                    <div class="feature-box col-7 col-md-3">
+                      <img class="card-img-top" src="./src/images/note.png">
+                      <div class="text-center text-section">
+                        <p class="feature-card-head">Lorem Ipsum</p>
+                        <p class="feature-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end features section -->
+
+	    <!-- Testimonial -->
+	    <section class="testimonial">
+	    	<div class="container">
+	    		<div class="row">
+                    <div class="col-14">
+                        <p class="testimonial-head">Testimonials</p>
+		    		    <p class="testimonial-sub-head">What People Speak About Us</p>
+                    </div>
+                </div>	
+		    	
+		    	<div class="row justify-content-center">
+                    <div class="col-md-11">
+                        <div class="white-box">
+                            <p class="testimonial-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+                            </p>
+                            
+                            <div class="row mx-0 user">
+                                <div class="col-6">
+                                    <img src="./src/images/user.jpg" width="50px;" class="float-right" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <p class="name">User Name Here</p>
+                                    <p class="deg">Designation</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+		    	</div>
+		    </div>
+	    </section>
+	    <!-- End Testimonial -->
+
+	    <!-- footer -->
+	    <footer class="footer">
+	    	<div class="container ">
+		    	<div class="row justify-content-between">
+		    		<div class="col-14 col-md-4">
+		    			<a href="#" class="logo"><img src="./src/images/logo-white.png" alt="" class="mb-3"></a>
+
+		    			<p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+		    		</div>
+		    		<div class="col-14 col-md-2">
+		    			<p class="footer-white-text">Navigation</p>
+		    			<a href="#" class="footer-text">How It Works</a>
+		    			<br>
+		    			<a href="#" class="footer-text">Lorem</a>
+		    			<br>
+		    			<a href="#" class="footer-text">Testimonial</a>
+		    			<br>
+		    			<a href="#" class="footer-text">Faq</a>
+		    		</div>
+		    		<div class="col-14 col-md-2">
+		    			<p class="footer-white-text">Navigation</p>
+		    			<a href="#" class="footer-text">Need Help?</a>
+		    			<br>
+		    			<a href="#" class="footer-text">About Us</a>
+		    			<br>
+		    			<a href="#" class="footer-text">Contact Us</a>
+		    			<br>
+		    			<a href="#" class="footer-text">Call Us</a>
+		    		</div>
+		    		<div class="col-14 col-md-3 follow-section">
+		    			<p class="footer-white-text">Follow Us</p>
+		    			<div class="social-icons">
+                            <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+						
+		    			<p class="help-line">Help Line Number</p>
+		    			<a href="#" class="phone-number">1800 123 45678</a>
+		    		</div>
+		    	</div>
+		    </div>
+	    </footer>
+	    <!-- end footer -->
+
+	    <!-- bottom ribbon -->
+	    <section class="bottom-ribbon">
+	    	<div class="container">
+		    	<div class="row">
+		    		<div class="col-14 col-md-5">
+		    			<p class="copyright"> 2020 Copyright @ PedalShift | All Rights Reserved </p>
+		    		</div>
+		    		<div class="col-14 offset-md-5 col-md-4">
+		    			<p class="developed-by">
+		    			 Designed & Developed by <a href="#" target="_blank" class="text-white">Inish Bhadra</a>
+		    			</p>
+		    		</div>
+		    	</div>
+		    </div>
+	    </section>
+	    <!-- end bottom ribbon -->
+    </div>
+    
+    <script src="./dist/js/app.js"></script>
+</body>
+</html>
